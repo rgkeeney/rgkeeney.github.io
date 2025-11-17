@@ -27,8 +27,8 @@ author:
   name             : "Reagan Grey Keeney"
   pronouns         : # example: "she/her"  
   bio              : "2nd year PhD Student"
-  location         : "Earth"
-  employer         : "University of Massachusetts Amherst"
+  location         : "Northampton, Massachusetts"
+  employer         : "UMass Amherst"
   uri              : # URL
   email            : "rkeeney@umass.edu" 
 
@@ -219,16 +219,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
